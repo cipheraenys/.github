@@ -7,7 +7,7 @@ contributions in that scope.
 
 - Keep the core portable. `core/` depends only on mbedTLS and ed25519. Anything
   platform-specific belongs in a port (`ports/<target>/`) or device (`devices/<name>/`) folder.
-- No AI slop. Terse, factual commits, comments, and docs. Explain the non-obvious; skip the obvious.
+- Terse, factual commits, comments, and docs. Explain the non-obvious; skip the obvious.
 - One logical change per PR.
 
 ## Build & test
